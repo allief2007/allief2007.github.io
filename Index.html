@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="Login">
+        <div class="Form">
+            <h2>Login Animation Test Allief</h2>
+            <form action="" method="post" id="login-form">
+                <input type="text" placeholder="username" id="username" required>
+                <input type="password" placeholder="password" id="password" required>
+                <input type="submit" value="Sign In" class="submit" id="submit-btn">
+                <p id="error-msg"></p>
+            </form>
+            <p>Belum memiliki akun? <a href="#" id="register-link">Daftar sekarang</a></p>
+            <p>Lupa kata sandi? <a href="#" id="forgot-password-link">Klik di sini</a></p>
+                <div id="register-popup" style="display: none;">
+    <h2>Daftar Akun</h2>
+    <form id="register-form">
+        <input type="text" id="register-username" placeholder="Username">
+        <input type="email" id="register-email" placeholder="Email">
+        <input type="password" id="register-password" placeholder="Password">
+        <input type="password" id="register-confirm-password" placeholder="Konfirmasi Password">
+        <button id="register-btn">Daftar</button>
+    </form>
+</div>
+        </div>
+    </div>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
